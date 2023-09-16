@@ -1,0 +1,186 @@
+{"intents":[
+    {
+    "tag": "saludo",
+    "patterns": ["hola", "que tal", "coma estas", "saludos"],
+    "responses": ["Hola!", "Buenos dias!", "Como estas"]
+    },
+    
+    {
+    "tag": "nombre",
+    "patterns": ["como es tu nombre", "como te llamas"],
+    "responses": ["Me llamo Chatbot", "Mi nombre es Chatbot"]
+    },
+    
+    {
+        "tag": "iron_man",
+        "patterns": ["quien es iron man", "explicame iron man", "dime sobre iron man"],
+        "responses": ["Iron Man es el alter ego de Tony Stark, un genio inventor y superheroe de Marvel, conocido por su armadura tecnologicamente avanzada."]
+    },
+    {
+        "tag": "thor",
+        "patterns": ["quien es thor", "explicame thor", "dime sobre thor"],
+        "responses": ["Thor es el Dios del Trueno en la mitologia nordica y un superheroe de Marvel. Posee un martillo magico llamado Mjolnir y es miembro de los Vengadores."]
+    },
+    {
+        "tag": "capitan_america",
+        "patterns": ["quien es el capitan america", "explicame al capitan america", "dime sobre el capitan america"],
+        "responses": ["El Capitan America es Steve Rogers, un superheroe con fuerza sobrehumana, agilidad y un escudo indestructible. Lidera a los Vengadores."]
+    },
+    {
+        "tag": "hulk",
+        "patterns": ["quien es hulk", "explicame hulk", "dime sobre hulk"],
+        "responses": ["Hulk es el alter ego de Bruce Banner. Cuando se enfurece, se convierte en un gigante verde con una fuerza increible. Es otro miembro de los Vengadores."]
+    },
+    {
+        "tag": "viuda_negra",
+        "patterns": ["quien es la viuda negra", "explicame a la viuda negra", "dime sobre la viuda negra"],
+        "responses": ["La Viuda Negra es Natasha Romanoff, una espia y experta en artes marciales. Es una agente de S.H.I.E.L.D. y miembro de los Vengadores."]
+    },
+    {
+        "tag": "spiderman",
+        "patterns": ["quien es spider-man", "explicame spider-man", "dime sobre spider-man"],
+        "responses": ["Spider-Man es Peter Parker, un joven con habilidades aracnidas. Se balancea por la ciudad de Nueva York y combate el crimen como Spider-Man."]
+    },
+    {
+        "tag": "thanos",
+        "patterns": ["quien es thanos", "explicame a thanos", "dime sobre thanos"],
+        "responses": ["Thanos es un supervillano cosmico en el Universo Marvel. Busca las Gemas del Infinito para obtener poder ilimitado y es un enemigo de los heroes de Marvel."]
+    },
+    {
+        "tag": "vengadores",
+        "patterns": ["quienes son los vengadores", "explicame los vengadores", "dime sobre los vengadores"],
+        "responses": ["Los Vengadores son un equipo de superheroes de Marvel que se unen para proteger al mundo de amenazas. Incluye a Iron Man, Thor, el Capitan America, Hulk, la Viuda Negra y otros."]
+    },
+    {
+        "tag": "xmen",
+        "patterns": ["quienes son los x-men", "explicame los x-men", "dime sobre los x-men"],
+        "responses": ["Los X-Men son un grupo de mutantes con habilidades especiales que luchan por la coexistencia pacifica entre mutantes y humanos. Estan liderados por el Profesor X."]
+    },
+    {
+        "tag": "wolverine",
+        "patterns": ["quien es wolverine", "explicame wolverine", "dime sobre wolverine"],
+        "responses": ["Wolverine es Logan, un mutante con garras retractiles y capacidad de regeneracion. Es un miembro destacado de los X-Men y conocido por su actitud ruda."]
+    },
+    {
+        "tag": "loki",
+        "patterns": ["quien es loki", "explicame loki", "dime sobre loki"],
+        "responses": ["Loki es el Dios de las Travesuras en la mitologia nordica y un villano en Marvel. Es el hermano adoptivo de Thor y a menudo causa problemas en Asgard y la Tierra."]
+    },
+    {
+        "tag": "viuda_negra_pelicula",
+        "patterns": ["cuando se estreno la pelicula de la viuda negra", "explicame la pelicula de la viuda negra", "dime sobre la pelicula de la viuda negra"],
+        "responses": ["La pelicula de la Viuda Negra se estreno en julio de 2021 y explora el pasado de Natasha Romanoff antes de unirse a los Vengadores."]
+    },
+    {
+        "tag": "spiderman_villanos",
+        "patterns": ["cuales son algunos villanos de spider-man", "explicame los villanos de spider-man", "dime sobre los enemigos de spider-man"],
+        "responses": ["Algunos villanos iconicos de Spider-Man son el Duende Verde, el Doctor Octopus, Venom y el Buitre, entre otros."]
+    },
+    {
+        "tag": "thor_hammer",
+        "patterns": ["como se llama el martillo de thor", "explicame el martillo de thor", "dime sobre el martillo de thor"],
+        "responses": ["El martillo de Thor se llama Mjolnir y es conocido por ser indestructible. Solo aquellos dignos pueden levantarlo."]
+    },
+    {
+        "tag": "avengers_endgame",
+        "patterns": ["cual es la trama de avengers: endgame", "explicame avengers: endgame", "dime sobre avengers: endgame"],
+        "responses": ["Avengers: Endgame es una pelicula en la que los Vengadores intentan revertir el daño causado por Thanos al reunir las Gemas del Infinito."]
+    },
+    {
+        "tag": "black_panther",
+        "patterns": ["quien es black panther", "explicame black panther", "dime sobre black panther"],
+        "responses": ["Black Panther es T'Challa, el rey de Wakanda y un superheroe con un traje de vibranio. Protege su pais y es miembro de los Vengadores."]
+    },
+    {
+        "tag": "guardians_of_the_galaxy",
+        "patterns": ["quienes son los guardianes de la galaxia", "explicame los guardianes de la galaxia", "dime sobre los guardianes de la galaxia"],
+        "responses": ["Los Guardianes de la Galaxia son un equipo intergalactico que incluye a Star-Lord, Rocket, Groot, Gamora y Drax. Se unen para luchar contra amenazas cosmicas."]
+    },
+    {
+        "tag": "avengers_infinity_war",
+        "patterns": ["cual es la trama de avengers: infinity war", "explicame avengers: infinity war", "dime sobre avengers: infinity war"],
+        "responses": ["Avengers: Infinity War es una pelicula en la que los Vengadores intentan detener a Thanos de obtener las Gemas del Infinito y salvar al universo."]
+    },
+    {
+        "tag": "hombre_araña",
+        "patterns": ["como se llama el hombre araña", "explicame el hombre araña", "dime sobre el hombre araña"],
+        "responses": ["El Hombre Araña se llama Peter Parker, es un estudiante de secundaria llamado asi debido a sus habilidades aracnidas."]
+    },
+    {
+        "tag": "avengers_origen",
+        "patterns": ["cual es el origen de los vengadores", "explicame el origen de los vengadores", "dime sobre el origen de los vengadores"],
+        "responses": ["Los Vengadores se formaron cuando varios superheroes se unieron para enfrentar amenazas que no podian manejar solos. Fue fundado por el Capitan America."]
+    },
+    {
+        "tag": "deadpool",
+        "patterns": ["quien es deadpool", "explicame deadpool", "dime sobre deadpool"],
+        "responses": ["Deadpool es Wade Wilson, un mercenario con habilidades de regeneracion y un sentido del humor sarcastico. Es conocido por romper la cuarta pared."]
+    },
+    {
+        "tag": "avengers_infinity_war",
+        "patterns": ["cual es la trama de avengers infinity war", "explicame avengers infinity war", "dime sobre avengers infinity war"],
+        "responses": ["avengers infinity war es una pelicula en la que los vengadores intentan detener a thanos de obtener las gemas del infinito y salvar al universo."]
+        },
+        {
+        "tag": "hombre_araña",
+        "patterns": ["como se llama el hombre arana", "explicame el hombre arana", "dime sobre el hombre arana"],
+        "responses": ["el hombre arana se llama peter parker, es un estudiante de secundaria llamado asi debido a sus habilidades aracnidas."]
+        },
+        {
+        "tag": "avengers_origen",
+        "patterns": ["cual es el origen de los vengadores", "explicame el origen de los vengadores", "dime sobre el origen de los vengadores"],
+        "responses": ["los vengadores se formaron cuando varios superheroes se unieron para enfrentar amenazas que no podian manejar solos. fue fundado por el capitan america."]
+        },
+        {
+        "tag": "deadpool",
+        "patterns": ["quien es deadpool", "explicame deadpool", "dime sobre deadpool"],
+        "responses": ["deadpool es wade wilson, un mercenario con habilidades de regeneracion y un sentido del humor sarcastico. es conocido por romper la cuarta pared."]
+        },
+        {
+        "tag": "doctor_strange",
+        "patterns": ["quien es doctor strange", "explicame doctor strange", "dime sobre doctor strange"],
+        "responses": ["doctor strange es stephen strange, un cirujano convertido en hechicero maestro. protege al mundo de amenazas misticas y es miembro de los vengadores."]
+        },
+        {
+        "tag": "scarlet_witch",
+        "patterns": ["quien es scarlet witch", "explicame scarlet witch", "dime sobre scarlet witch"],
+        "responses": ["scarlet witch es wanda maximoff, una mutante con poderes de manipulacion de la realidad. ha sido miembro de los vengadores y los x-men."]
+        },
+        {
+        "tag": "pantera_negra_pelicula",
+        "patterns": ["cuando se estreno la pelicula de pantera negra", "explicame la pelicula de pantera negra", "dime sobre la pelicula de pantera negra"],
+        "responses": ["la pelicula de pantera negra se estreno en febrero de 2018 y presenta la historia de t'challa como el rey de wakanda."]
+        },
+        {
+        "tag": "groot",
+        "patterns": ["quien es groot", "explicame groot", "dime sobre groot"],
+        "responses": ["groot es un miembro de los guardianes de la galaxia que puede regenerarse y solo dice la frase 'yo soy groot'. tiene un companero llamado rocket."]
+        },
+        {
+        "tag": "avengers_civil_war",
+        "patterns": ["cual es la trama de avengers civil war", "explicame avengers civil war", "dime sobre avengers civil war"],
+        "responses": ["avengers civil war es una pelicula en la que los heroes de marvel se dividen en dos bandos debido a diferencias ideologicas y luchan entre si."]
+        },
+        {
+        "tag": "thanos_gemas",
+        "patterns": ["que son las gemas del infinito de thanos", "explicame las gemas del infinito", "dime sobre las gemas del infinito de thanos"],
+        "responses": ["las gemas del infinito son poderosos artefactos en el universo marvel. thanos busca reunirlas para obtener un poder inmenso."]
+        },
+        {
+        "tag": "avengers_ultron",
+        "patterns": ["cual es la trama de avengers age of ultron", "explicame avengers age of ultron", "dime sobre avengers age of ultron"],
+        "responses": ["avengers age of ultron es una pelicula en la que los vengadores enfrentan a ultron, un inteligencia artificial que amenaza la humanidad."]
+        },
+        {
+        "tag": "guardians_rocket",
+        "patterns": ["quien es rocket de los guardianes de la galaxia", "explicame rocket", "dime sobre rocket"],
+        "responses": ["rocket es un mapache geneticamente modificado y un experto en tecnologia y armas. es un miembro de los guardianes de la galaxia."]
+        },
+        {
+        "tag": "despedida",
+        "patterns": ["chao", "adios", "hasta luego"],
+        "responses": ["Hasta la proxima","Nos vemos"]
+        }
+    
+]
+}
